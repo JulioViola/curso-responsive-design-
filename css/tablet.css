@@ -1,0 +1,12 @@
+.product-cards--container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: 0 auto;
+}
+.plans-container--slider {
+    justify-content: center;
+}
+.plans-container--card { 
+    margin: 30px 0;
+}

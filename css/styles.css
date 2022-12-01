@@ -273,6 +273,7 @@ main{
 .product-cards--container .product-detail--card{
     width: 80%;
     min-width: 288px;
+    max-width: 350px;
     min-height: 152px;
     background-color: var(--warm-black-mas-uno);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
@@ -343,6 +344,7 @@ main{
     width: 100%;
     min-width: 320px;
     height: 50vh;
+    max-height: 350px;
     background-image: url(../assets/img/bitcoinbaby2x.jpg);
     background-position: center;
     background-size: cover;
@@ -392,8 +394,9 @@ main{
 /* Slide sin js */
 .plans-container--slider {
     display: flex;
+    justify-content: center;
     gap: 50px;
-    height: 316px;
+    height: 400px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
@@ -507,3 +510,4 @@ footer .left ul{
     text-decoration: none;
     color: var(--just-white);
 }
+
